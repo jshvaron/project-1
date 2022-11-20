@@ -4,26 +4,51 @@
 }
 
 body {
+    
 }
 
-#Navigation {
+
+
+header{
+    
+    height: 100px;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    z-index: 1;
+    background-color: rgb(224, 222, 222);
+    border-top: auto;
+    
+    
+}
+
+#mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navigation {
 
     border: 5px black;
     margin-left: auto;   
     margin-right: auto;
+    margin-top: 200px;
+    font-style;
+    text-decoration: none;
+    z-index: 0;
+
+
 
 }
 
-header{
-    text-align: center;
-    margin-bottom: 100px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 30px;
-    
-
-    
+ a{
+    text-decoration: none;
 }
 
 li { 
